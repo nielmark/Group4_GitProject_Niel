@@ -1,0 +1,69 @@
+{
+    "MORNING": {
+      "A1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "A2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B3": [
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    "MID": {
+      "A1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "A2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B3": [
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    "NIGHT": {
+      "A1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "A2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B3": [
+        "EMPTY",
+        "EMPTY"
+      ]
+    }
+  }
+  
