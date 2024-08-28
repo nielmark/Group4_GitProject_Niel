@@ -11,4 +11,3 @@ PRINT - prints the entirety of the schedule created. Once called, the program ex
 RESET - resets the schedule record to a blank slate.
 
 EXIT - exits in the program with the data saved.
-
