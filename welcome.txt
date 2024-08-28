@@ -1,0 +1,14 @@
+Welcome!
+
+This is a Scheduler App that aides in managing and creating schedules. The app is set to be continuously running, it defaults in prompting for a name input to be assigned a schedule. 
+
+Input any name or a set of string of names to be prompted for a schedule assignment. 
+
+Here's a list of special commands that can be used as an input for extended functionality:
+
+PRINT - prints the entirety of the schedule created. Once called, the program exits.
+
+RESET - resets the schedule record to a blank slate.
+
+EXIT - exits in the program with the data saved.
+
