@@ -1,8 +1,22 @@
 #!/bin/bash
 
-echo "======================================"
-echo "---- Shift Scheduler Application -----"
-echo "======================================"
+cat << "EOF"
+   __        __   _                            _
+   \ \      / /__| | ___ ___  _ __ ___   ___  | |_ ___
+    \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \ | __/ _ \
+     \ V  V /  __/ | (_| (_) | | | | | |  __/ | || (_) |
+      \_/\_/ \___|_|\___\___/|_| |_| |_|\___|  \__\___/
+
+     ___  ____  ______        _______ ____  _  ______
+    / _ \|  _ \/ ___\ \      / / ____|  _ \| |/ / ___|
+   | | | | |_) \___ \\ \ /\ / /|  _| | |_) | ' /\___ \
+   | |_| |  __/ ___) |\ V  V / | |___|  _ <| . \ ___) |
+    \___/|_|   |____/  \_/\_/  |_____|_| \_\_|\_\____/
+EOF
+
+echo "============================================================"
+echo "---------------- Shift Scheduler Application ---------------"
+echo "============================================================"
 
 # Initialized Valid Values
 valid_shifts=("MORNING","MID","NIGHT")
@@ -24,9 +38,6 @@ while true; do
                 fmt_team=$(echo "$team" | tr '[:lower:]' '[:upper:]')
 
                 if [[ "${valid_teams[@]}" =~ "$fmt_team" ]]; then
-                        #echo "Team: $fmt_team"
-                        #echo "Name: $name", "Shift: $fmt_shift"
-
                         echo "Thank you for providing the details needed."
 
                         read -p "Do you want to add another employee? (Yes or Type Print to finish: " next_action
@@ -39,6 +50,7 @@ while true; do
                         fi
                 else
                         echo "INVALID TEAM INPUT!"
+                        exit 1
                 fi
         else
                 echo "INVALID SHIFT INPUT!"
