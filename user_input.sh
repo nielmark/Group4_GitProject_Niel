@@ -4,7 +4,7 @@
 valid_shifts=("MORNING","MID","NIGHT")
 valid_teams=("A1","A2","B1","B2","B3")
 
-# Upser Input Starts here
+# Upser Input Starts here...
 read -p "Please Add a Name: " name
 fmt_name=$(echo "$name" | tr '[:lower:]' '[:upper:]')  # Format the name to Uppercase
 
