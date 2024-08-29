@@ -4,6 +4,7 @@
 valid_shifts=("MORNING","MID","NIGHT")
 valid_teams=("A1","A2","B1","B2","B3")
 
+# Upser Input Starts here
 read -p "Please Add a Name: " name
 fmt_name=$(echo "$name" | tr '[:lower:]' '[:upper:]')  # Format the name to Uppercase
 
@@ -27,7 +28,7 @@ if [[ "${valid_shifts[@]}" =~ "$fmt_shift" ]]; then
                 fmt_action=$(echo "$next_action" | tr '[:lower:]' '[:upper:]')
                 
                 export fmt_action
-                
+
         else
                 echo "INVALID TEAM INPUT!"
                 exit 1
