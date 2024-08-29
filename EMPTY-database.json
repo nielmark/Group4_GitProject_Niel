@@ -19,6 +19,9 @@
       "B3": [
         "EMPTY",
         "EMPTY"
+      ],
+      "TIME": [
+        "3AM to 12PM"
       ]
     },
     "MID": {
@@ -41,6 +44,9 @@
       "B3": [
         "EMPTY",
         "EMPTY"
+      ],
+      "TIME": [
+        "11AM to 8PM"
       ]
     },
     "NIGHT": {
@@ -63,6 +69,9 @@
       "B3": [
         "EMPTY",
         "EMPTY"
+      ],
+      "TIME": [
+        "7PM to 4AM"
       ]
     }
   }
