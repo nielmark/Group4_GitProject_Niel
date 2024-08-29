@@ -1,0 +1,78 @@
+{
+    "MORNING": {
+      "A1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "A2": [
+        "James T. Davis",
+        "Prof. Henry Adams"
+      ],
+      "B1": [
+        "Charles Anderson III",
+        "Kevin Young"
+      ],
+      "B2": [
+        "Jacob Ryan White",
+        "Daniel J. Jackson"
+      ],
+      "B3": [
+        "Dr. Anthony Walker",
+        "Brian Roberts III"
+      ],
+      "TIME": [
+        "3AM to 12PM"
+      ]
+    },
+    "MID": {
+      "A1": [
+        "Emma L. Smith",
+        "Dr. Sarah Parker"
+      ],
+      "A2": [
+        "Andrew Miller III",
+        "Robert Clark"
+      ],
+      "B1": [
+        "Victoria Rose Lewis",
+        "Emily R. Scott"
+      ],
+      "B2": [
+        "Mr. Christopher Harris",
+        "Alexander King III"
+      ],
+      "B3": [
+        "Elizabeth Hall",
+        "Jessica Marie Robinson"
+      ],
+      "TIME": [
+        "11AM to 8PM"
+      ]
+    },
+    "NIGHT": {
+      "A1": [
+        "Michael Johnson III",
+        "Linda Williams"
+      ],
+      "A2": [
+        "Olivia Grace Thompson",
+        "Sophia M. Martinez"
+      ],
+      "B1": [
+        "Mrs. Mary Taylor",
+        "Benjamin Garcia III"
+      ],
+      "B2": [
+        "Laura Moore",
+        "Isabella Faith Lee"
+      ],
+      "B3": [
+        "Matthew P. Allen",
+        "Rev. Patrick Evans"
+      ],
+      "TIME": [
+        "7PM to 4AM"
+      ]
+    }
+  }
+  
