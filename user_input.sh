@@ -6,7 +6,7 @@ valid_teams=("A1","A2","B1","B2","B3")
 special_keywords=("PRINT","RESET")
 
 # Upser Input Starts here...
-echo -e "\n\n"
+echo -e "\n============================================================\n"
 read -p "Please add an employee: " name
 fmt_name=$(echo "$name" | tr '[:lower:]' '[:upper:]')  # Format the name to Uppercase
 

@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # echoing welcome message
-cat welcome.txt
 ./banner.sh
+echo -e "\n"
+cat welcome.txt
 
 # calling user input checker feature
 while true; do
