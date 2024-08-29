@@ -13,9 +13,12 @@ while true; do
     source ./user_input.sh
 
     # Check if the action is "PRINT"
-    if [[ "$fmt_action" == "PRINT" ]]; then
+    if [[ "$NAME" == "PRINT" ]]; then
     #   Add you print script here 
-        echo $NAME
+        echo -e "\nSAMPLE | DATABASE | PRINTED | FORMAT"
+        export EXIT_CODE=1
+    elif [[ "$NAME" == "RESET" ]]; then
+        source ./reset-database.sh
         export EXIT_CODE=1
     fi
 
