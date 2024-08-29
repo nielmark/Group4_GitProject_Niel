@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh '''
                     chmod +x -R /home/jenkins-agent/Group4_GitProject
-                    ./user_input.sh << EOF 
+                    ./shift_sched.sh << EOF 
                     Reydentor Casaljay
                     Morning
                     B2
