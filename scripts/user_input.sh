@@ -25,7 +25,7 @@ else
                 read -p "Please add $fmt_name's team: " team
                 fmt_team=$(echo "$team" | tr '[:lower:]' '[:upper:]')
                 if [[ "${valid_teams[@]}" =~ "$fmt_team" ]]; then
-                        echo -e "\nThank you for providing the details needed."
+                        echo -e "\n\nThank you for providing the details needed."
 
                         # Export the inputted details to environment variable.
                         export NAME="$fmt_name"
