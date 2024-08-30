@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "\n\nStarting... Please be patient.\n\n"
-
+# echo $OSTYPE
 # Apply execute permissions to all files in the current directory
 chmod +x *
 
@@ -21,11 +21,21 @@ install_packages() {
     sudo pacman -Sy --noconfirm gawk jq
   elif command -v zypper >/dev/null 2>&1; then
     sudo zypper install -y gawk jq
+  elif [[ "$OSTYPE" == "darwin"* ]]; then
+    install_gawk_and_bash
   else
-    echo "Unsupported Linux distribution." >&2
+    echo "Unsupported OS." >&2
     exit 1
   fi
 }
 
-# Determine the Linux distribution and install packages
+install_gawk_and_bash() {
+  {
+    # Install gawk and Bash using Homebrew, auto-confirming any prompts
+    yes | brew install gawk bash
+  } >/dev/null 2>&1
+  
+}
+
+# Determine the OS and install packages
 install_packages
