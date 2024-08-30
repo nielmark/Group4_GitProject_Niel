@@ -42,9 +42,13 @@ install_gawk_and_bash() {
       if ! brew list bash >/dev/null 2>&1; then
         yes | brew install bash
       fi
+
+      # Install jq if not installed
+      if ! brew list jq >/dev/null 2>&1; then
+        yes | brew install jq
+      fi
     fi
 
-  echo "gawk and Bash installation check complete."
   } >/dev/null 2>&1
   
 }
