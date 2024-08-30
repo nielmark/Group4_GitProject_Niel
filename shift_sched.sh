@@ -19,7 +19,8 @@ while true; do
     # Check if the action is "PRINT"
     if [[ "$NAME" == "PRINT" ]]; then
     #   Add you print script here 
-        echo -e "\nSAMPLE | DATABASE | PRINTED | FORMAT"
+        source ./scripts/print_all.sh
+        #echo -e "\nSAMPLE | DATABASE | PRINTED | FORMAT"
         export EXIT_CODE=1
     elif [[ "$NAME" == "RESET" ]]; then
         source ./scripts/reset-database.sh
