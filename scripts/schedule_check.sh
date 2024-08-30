@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Read the database.json file into a variable
-database=$(cat ./database.json)
+database=$(cat ./database/database.json)
 
 # Extract the relevant array for the specified team and shift using jq
-team_shift_array=$(echo "$database" | ./JSONPath.sh -b .[$SHIFT].[$TEAM])
+team_shift_array=$(echo "$database" | ./scripts/JSONPath.sh -b .[$SHIFT].[$TEAM])
 
 # Count the number of filled entries (non-"EMPTY")
 filled_entries=$(echo "$team_shift_array" | grep -c -v "EMPTY")
