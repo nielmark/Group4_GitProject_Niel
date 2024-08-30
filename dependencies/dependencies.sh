@@ -11,8 +11,8 @@ exec > /dev/null 2>&1
 # Function to install packages based on detected package manager
 install_packages() {
   if command -v apt-get >/dev/null 2>&1; then
-    sudo apt-get update
-    sudo apt-get install -y gawk jq
+    sudo apt update
+    sudo apt install -y gawk jq
   elif command -v yum >/dev/null 2>&1; then
     sudo yum install -y gawk jq
   elif command -v dnf >/dev/null 2>&1; then
