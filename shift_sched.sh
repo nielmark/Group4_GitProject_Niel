@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# initializing dependencies install
+./dependencies.sh
+
 # echoing welcome message
 ./banner.sh
 echo -e "\n"
