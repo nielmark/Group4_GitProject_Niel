@@ -31,13 +31,6 @@ else
                         export NAME="$fmt_name"
                         export SHIFT="$fmt_shift"
                         export TEAM="$fmt_team"
-
-                        # Removing this section. User shouldn't need to type yes.
-                        # read -p "Add another? (Yes or Type Print to finish: " next_action
-                        # fmt_action=$(echo "$next_action" | tr '[:lower:]' '[:upper:]')
-                        
-                        # export fmt_action
-
                 else
                         echo -e "\nINVALID TEAM INPUT!"
                         exit 1
