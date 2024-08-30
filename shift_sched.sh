@@ -35,8 +35,6 @@ while true; do
     # start of write script
     if [[ $EXIT_CODE != 1 ]]; then
         # calling for writing to database
-        # source ./write_schedule.sh
-        echo -e "\n\n\nSUCCESS!\n"
-        echo "$NAME from team $TEAM is assigned to $SHIFT, $(cat ./database/database.json | ./scripts/JSONPath.sh -b .[$SHIFT].TIME[0])"  
+        source ./scripts/write_schedule.sh
     fi
 done

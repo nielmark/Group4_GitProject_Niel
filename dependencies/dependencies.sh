@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\n\nStarting... Please be patient.\n\n"
+echo -e "\n\nStarting... Please wait.\n\n"
 # echo $OSTYPE
 # Apply execute permissions to all files in the current directory
 chmod +x *
