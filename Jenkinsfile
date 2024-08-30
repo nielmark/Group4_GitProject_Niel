@@ -9,7 +9,7 @@ pipeline {
             steps {
                 sh '''
                     echo "Running Test"
-                    ./shift_sched.sh << EOF 
+                    /bin/bash ./shift_sched.sh << EOF 
                     Reydentor Casaljay
                     Morning
                     B2
