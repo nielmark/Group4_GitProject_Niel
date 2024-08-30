@@ -14,7 +14,8 @@ if [ "$filled_entries" -ge 2 ]; then
   # echo $filled_entries
   export EXIT_CODE=1
   echo -e "\n\nUnavailable schedule assignment.\n"
-  echo "Please choose another assignment on next run. Exiting program..."
+  echo -e "Please choose another assignment on next run. Exiting program...\n"
+  exit 1
 else
   # Find the index of the first "EMPTY" entry and set SCHED_INDEX
   empty_index=$(echo "$team_shift_array" | grep -n "EMPTY" | cut -d: -f1 | head -n 1)
