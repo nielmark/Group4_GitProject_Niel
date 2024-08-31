@@ -28,3 +28,5 @@ do
     printf "\n"
 done
 
+# exiting the program
+exit 1
