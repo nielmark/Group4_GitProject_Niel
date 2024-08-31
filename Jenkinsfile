@@ -2,14 +2,15 @@ pipeline {
     agent {
         node {
             label 'ubuntu-agent2'
+            customWorkspace '/home/jenkins-agent/Group4_GitProject'
         }
     }
     stages {
         stage('Test') {
             steps {
-                sh '''
+                bash '''
                     echo "Running Test"
-                    /bin/bash ./shift_sched.sh << EOF 
+                    ./shift_sched.sh << EOF 
                     Reydentor Casaljay
                     Morning
                     B2
