@@ -1,6 +1,6 @@
 Welcome!
 
-This is a Scheduler App that aides in managing and creating schedules. The app is set to be continuously running, it defaults in prompting for a name input to be assigned a schedule. 
+This is a schedule maker application that aides in managing and creating schedules. The app is set to be continuously running, it defaults in prompting for a name input to be assigned a schedule. 
 
 Input any name or a set of string of names to be prompted for a schedule assignment. 
 

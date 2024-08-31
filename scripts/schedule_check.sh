@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# for color formatting
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+YELLOW=$(tput setaf 3)
+CYAN=$(tput setaf 6)
+NORMAL=$(tput sgr0)
+BOLD=$(tput bold) 
+
 # Read the database.json file into a variable
 database=$(cat ./database/database.json)
 
@@ -13,8 +21,9 @@ if [ "$filled_entries" -ge 2 ]; then
   # If 2 entries are already filled, exit with code 1
   # echo $filled_entries
   export EXIT_CODE=1
-  echo -e "\n\nUnavailable schedule assignment.\n"
-  echo -e "Please choose another assignment on next run. Exiting program...\n"
+  echo -e "\n\n${BOLD}${RED}FAILED${NORMAL}"
+  echo -e "\nUnavailable schedule assignment."
+  echo -e "\nPlease choose another assignment on next run. Exiting program...\n"
   exit 1
 else
   # Find the index of the first "EMPTY" entry and set SCHED_INDEX

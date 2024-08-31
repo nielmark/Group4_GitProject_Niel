@@ -1,77 +1,79 @@
 {
-  "MORNING": {
-    "A1": [
-      "MHONN",
-      "NIEL"
-    ],
-    "A2": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B1": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B2": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B3": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "TIME": [
-      "3AM to 12PM"
-    ]
-  },
-  "MID": {
-    "A1": [
-      "REYDENTOR",
-      "EMPTY"
-    ],
-    "A2": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B1": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B2": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B3": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "TIME": [
-      "11AM to 8PM"
-    ]
-  },
-  "NIGHT": {
-    "A1": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "A2": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B1": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B2": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "B3": [
-      "EMPTY",
-      "EMPTY"
-    ],
-    "TIME": [
-      "7PM to 4AM"
-    ]
+    "MORNING": {
+      "A1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "A2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B3": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "TIME": [
+        "3AM to 12PM"
+      ]
+    },
+    "MID": {
+      "A1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "A2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B3": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "TIME": [
+        "11AM to 8PM"
+      ]
+    },
+    "NIGHT": {
+      "A1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "A2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B1": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B2": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "B3": [
+        "EMPTY",
+        "EMPTY"
+      ],
+      "TIME": [
+        "7PM to 4AM"
+      ]
+    }
   }
-}
+
+  

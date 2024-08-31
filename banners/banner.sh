@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# for color formatting
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+YELLOW=$(tput setaf 3)
+CYAN=$(tput setaf 6)
+NORMAL=$(tput sgr0)
+BOLD=$(tput bold) 
+
+echo "${BOLD}${GREEN}"
 cat << "EOF"
 
    __        __   _                            _
@@ -15,7 +24,11 @@ cat << "EOF"
     \___/|_|   |____/  \_/\_/  |_____|_| \_\_|\_\____/
 EOF
 
+echo "${NORMAL}${BOLD}"
 echo -e "\n"
 echo "============================================================"
+echo "${BOLD}${YELLOW}"
 echo "---------------- Shift Scheduler Application ---------------"
+echo "${NORMAL}${BOLD}"
 echo "============================================================"
+echo -e "\n${NORMAL}"

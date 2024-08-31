@@ -1,8 +1,8 @@
 {
   "MORNING": {
     "A1": [
-      "MHONN",
-      "NIEL"
+      "EMPTY",
+      "EMPTY"
     ],
     "A2": [
       "EMPTY",
@@ -26,7 +26,7 @@
   },
   "MID": {
     "A1": [
-      "REYDENTOR",
+      "MHONN",
       "EMPTY"
     ],
     "A2": [
