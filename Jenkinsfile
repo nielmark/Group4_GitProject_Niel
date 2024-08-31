@@ -8,10 +8,8 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh '''
-
+                bash '''
                     echo "Running Test"
-                    chmod +x -R /home/jenkins-agent/Group4_GitProject
                     ./shift_sched.sh << EOF 
                     Reydentor Casaljay
                     Morning
