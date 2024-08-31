@@ -22,7 +22,8 @@ do
         do
             if [ "$(echo "$database" | ./scripts/JSONPath.sh -b .$shift.$team[$index])" == "EMPTY" ]
             then
-                printf "%-28s %-10s %-15s\n" "${RED}Vacant" "$shift" "$(echo "$database" | ./scripts/JSONPath.sh -b .$shift.'TIME')${NORMAL}"
+                printf "%-28s %-10s %-15s\n" "${RED}VACANT" "$shift" "$(echo "$database" | ./scripts/JSONPath.sh -b .$shift.'TIME')${NORMAL}"
+                # printf "%-28s %-10s %-15s\n" "${RED}VACANT" "VACANT" "VACANT${NORMAL}" # this vacant to all columns if vacant
             else
                 printf "%-28s %-10s %-15s\n" "${GREEN}$(echo "$database" | ./scripts/JSONPath.sh -b .$shift.$team[$index])" "$shift" "$(echo "$database" | ./scripts/JSONPath.sh -b .$shift.'TIME')${NORMAL}"
             fi

@@ -23,8 +23,9 @@ if [[ "${special_keywords[@]}" =~ "$fmt_name" ]]; then
         export NAME="$fmt_name"
 else
         # since name is not a special keyword, only then must shift be asked
-        echo -e "\n\nShift Options: ${CYAN}MORNING (3AM to 12 PM)${NORMAL} | ${CYAN}MID (11AM to 8PM)${NORMAL} | ${CYAN}NIGHT (7AM to 4AM)${NORMAL}\n"
-        read -p "Please add ${YELLOW}$fmt_name${NORMAL}'s shift assignment: " shift
+        echo -e "\n\nShift Options: ${CYAN}MORNING${NORMAL} (3AM to 12 PM)| ${CYAN}MID${NORMAL} (11AM to 8PM) | ${CYAN}NIGHT${NORMAL} (7AM to 4AM)\n"
+        read -p "Please add ${YELLOW}$fmt_name${NORMAL}'s shift assignment: ${YELLOW}" shift
+        echo "${NORMAL}"
         fmt_shift=$(echo "$shift" | tr '[:lower:]' '[:upper:]')  # Format the shift to Uppercase
 
         # Condition to check if the user input is in the list of accepted values
