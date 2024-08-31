@@ -1,12 +1,22 @@
 #!/bin/bash
 
+# for color formatting
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+YELLOW=$(tput setaf 3)
+CYAN=$(tput setaf 6)
+NORMAL=$(tput sgr0)
+BOLD=$(tput bold) 
+
+echo "${NORMAL}"
+
 # initializing dependencies install
 ./dependencies/dependencies.sh
 
 # echoing welcome message
 ./banners/banner.sh
-echo -e "\n"
 cat ./banners/welcome.txt
+
 
 # calling user input checker feature
 while true; do

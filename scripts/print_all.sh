@@ -4,10 +4,14 @@ database=$(cat ./database/database.json)
 teams=( "A1" "A2" "B1" "B2" "B3")
 shifts=( "MORNING" "MID" "NIGHT" )
 
+# for color formatting
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
 YELLOW=$(tput setaf 3)
+CYAN=$(tput setaf 7)
 NORMAL=$(tput sgr0)
+BOLD=$(tput bold) 
+
 printf "\n"
 for team in ${teams[@]}
 do
