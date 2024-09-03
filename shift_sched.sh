@@ -15,7 +15,7 @@ echo "${NORMAL}"
 
 # echoing welcome message
 ./banners/banner.sh
-cat ./banners/welcome.txt
+./banners/welcome.sh
 
 
 # calling user input checker feature
