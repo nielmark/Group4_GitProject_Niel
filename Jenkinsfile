@@ -36,10 +36,10 @@ pipeline {
                         echo "Verifying 30 entries..."
                         if [ $(cat ./database/database.json | grep -i "EMPTY" | wc -l) -eq 0 ]
                         then
-                            echo "Test 1 Success"
+                            echo "Test 1 Success..."
                             exit 0
                         else
-                            echo "Test 1 Failed"
+                            echo "Test 1 Failed..."
                             exit 1
                         fi
                         '''
