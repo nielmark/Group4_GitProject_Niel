@@ -10,6 +10,7 @@ Group 4 Shift Scheduler is a script that organizes and stores schedules in JSON 
 ### Requirements: 
 - Docker installed
 - Git installed
+
 Clone repository
 ```sh
 git clone https://github.com/nielsanchez/Group4_GitProject.git 
