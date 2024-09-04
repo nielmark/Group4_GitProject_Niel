@@ -1,5 +1,5 @@
 # Group 4 OpsWerks Shift Scheduler
-Group 4 Shift Scheduler is a script that organizes and stores schedules in JSON format.
+Group 4 Shift Scheduler is a script that organizes and stores work schedules in JSON format.
 
 ## Members:
 - Reydentor Casaljay
@@ -11,6 +11,7 @@ Group 4 Shift Scheduler is a script that organizes and stores schedules in JSON 
 - Docker installed
 - Git installed
 
+### Steps
 Clone repository
 ```sh
 git clone https://github.com/nielsanchez/Group4_GitProject.git 
@@ -34,6 +35,8 @@ docker run -it --mount type=bind,source=./database,target=/shift-scheduler/datab
 - Homebrew installed
 ### Requirements for linux:
 - Package Manager(yum, dnf, apt, apt-get)
+
+### Steps
 Clone repository
 ```sh
 git clone https://github.com/nielsanchez/Group4_GitProject.git 
