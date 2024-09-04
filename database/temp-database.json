@@ -1,8 +1,8 @@
 {
   "MORNING": {
     "A1": [
-      "EMPTY",
-      "EMPTY"
+      "THOR",
+      "THOR"
     ],
     "A2": [
       "EMPTY",
@@ -26,7 +26,7 @@
   },
   "MID": {
     "A1": [
-      "MHONN",
+      "EMPTY",
       "EMPTY"
     ],
     "A2": [
