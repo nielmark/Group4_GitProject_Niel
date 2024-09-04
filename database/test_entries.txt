@@ -1,0 +1,91 @@
+Amelia Brooks  
+Morning  
+A1  
+Ethan Carter  
+Morning  
+A1  
+Isabella Martinez  
+Mid  
+A1  
+Noah Thompson  
+Mid  
+A1  
+Sophia Patel  
+Night  
+A1  
+Liam Jackson  
+Night  
+A1  
+Ava Davis  
+Morning  
+A2  
+Oliver Wilson  
+Morning  
+A2  
+Mia Lewis  
+Mid  
+A2  
+Benjamin Harris  
+Mid  
+A2  
+Charlotte Clark  
+Night  
+A2  
+Lucas Allen  
+Night  
+A2  
+Harper Young  
+Morning  
+B1  
+Elijah Scott  
+Morning  
+B1  
+Ella Adams  
+Mid  
+B1  
+James Walker  
+Mid  
+B1  
+Grace Hall  
+Night  
+B1  
+Alexander King  
+Night  
+B1  
+Lily Nelson  
+Morning  
+B2  
+Daniel Green  
+Morning  
+B2  
+Scarlett Baker  
+Mid  
+B2  
+Matthew Lee  
+Mid  
+B2  
+Chloe Murphy  
+Night  
+B2  
+Henry Cooper  
+Night  
+B2  
+Aria Reed  
+Morning  
+B3  
+Samuel Morgan  
+Morning  
+B3  
+Zoey Perez  
+Mid  
+B3  
+Michael Hughes  
+Mid  
+B3  
+Abigail Turner  
+Night  
+B3  
+Jacob Foster  
+Night  
+B3
+Print
