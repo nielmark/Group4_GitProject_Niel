@@ -19,7 +19,7 @@ read -p "Please add an employee: ${YELLOW}" name
 echo "${NORMAL}"
 fmt_name=$(echo "$name" | tr '[:lower:]' '[:upper:]')  # Format the name to Uppercase
 # Condition check if one of the input names is from the special keyword
-if [[ "${special_keywords[@]}" =~ "$fmt_name" ]]; then
+if printf "%s\n" "${special_keywords[@]}" | grep -w -q "$fmt_name"; then
         export NAME="$fmt_name"
 else
         # since name is not a special keyword, only then must shift be asked
@@ -29,12 +29,12 @@ else
         fmt_shift=$(echo "$shift" | tr '[:lower:]' '[:upper:]')  # Format the shift to Uppercase
 
         # Condition to check if the user input is in the list of accepted values
-        if [[ "${valid_shifts[@]}" =~ "$fmt_shift" ]]; then
+        if printf "%s\n" "${valid_shifts[@]}" | grep -w -q "$fmt_shift"; then
                 echo -e "\n\nTeam Options: ${CYAN}A1${NORMAL} | ${CYAN}A2${NORMAL} | ${CYAN}B1${NORMAL} | ${CYAN}B2${NORMAL} | ${CYAN}B3${NORMAL}\n"
                 read -p "Please add $fmt_name's team: ${YELLOW}" team
                 echo "${NORMAL}"
                 fmt_team=$(echo "$team" | tr '[:lower:]' '[:upper:]')
-                if [[ "${valid_teams[@]}" =~ "$fmt_team" ]]; then
+                if printf "%s\n" "${valid_teams[@]}" | grep -w -q "$fmt_team"; then
                         echo -e "\n\nThank you for providing the details needed."
 
                         # Export the inputted details to environment variable.
