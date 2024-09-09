@@ -33,6 +33,10 @@ docker run -it --mount type=bind,source=./database,target=/shift-scheduler/datab
 ## Running in a Mac or Linux Operating System
 ### Requirements for Mac: 
 - Homebrew installed
+#### To install homebrew using terminal. Run this command.
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 ### Requirements for linux:
 - Package Manager(yum, dnf, apt, apt-get)
 
