@@ -23,7 +23,7 @@ if printf "%s\n" "${special_keywords[@]}" | grep -w -q "$fmt_name"; then
         export NAME="$fmt_name"
 else
         # since name is not a special keyword, only then must shift be asked
-        echo -e "\n\nShift Options: ${CYAN}MORNING${NORMAL} (3AM to 12 PM)| ${CYAN}MID${NORMAL} (11AM to 8PM) | ${CYAN}NIGHT${NORMAL} (7AM to 4AM)\n"
+        echo -e "\n\nShift Options: ${CYAN}MORNING${NORMAL} (6AM to 3PM)| ${CYAN}MID${NORMAL} (2PM to 11PM) | ${CYAN}NIGHT${NORMAL} (10PM to 7AM)\n"
         read -p "Please add ${YELLOW}$fmt_name${NORMAL}'s shift assignment: ${YELLOW}" shift
         echo "${NORMAL}"
         fmt_shift=$(echo "$shift" | tr '[:lower:]' '[:upper:]')  # Format the shift to Uppercase

@@ -1,8 +1,8 @@
 {
   "MORNING": {
     "A1": [
-      "THOR",
-      "THOR"
+      "MHONN",
+      "EMPTY"
     ],
     "A2": [
       "EMPTY",
@@ -21,7 +21,7 @@
       "EMPTY"
     ],
     "TIME": [
-      "3AM to 12PM"
+      "6AM to 3PM"
     ]
   },
   "MID": {
@@ -46,7 +46,7 @@
       "EMPTY"
     ],
     "TIME": [
-      "11AM to 8PM"
+      "2PM to 11PM"
     ]
   },
   "NIGHT": {
@@ -71,7 +71,7 @@
       "EMPTY"
     ],
     "TIME": [
-      "7PM to 4AM"
+      "10PM to 7AM"
     ]
   }
 }
