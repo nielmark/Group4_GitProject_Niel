@@ -1,6 +1,11 @@
 FROM ubuntu:latest
+
 WORKDIR /shift-scheduler
+
+RUN apt-get update && \
+    apt-get install -y bash coreutils ttyd gawk jq
+
 COPY . .
 RUN chmod 777 -R /shift-scheduler
-RUN apt update -y
-RUN apt install -y gawk jq
+
+CMD ["ttyd", "--writable", "-p", "8080", "bash", "shift_sched.sh"]
