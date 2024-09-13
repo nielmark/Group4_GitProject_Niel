@@ -32,9 +32,9 @@ spec:
             memory: "256Mi"
             cpu: "250m"
         volumeMounts:
-        - name: vol_database
+        - name: vol-database
           mountPath: /shift-scheduler
       volumes:
-      - name: vol_database
+      - name: vol-database
         persistentVolumeClaim:
           claimName: pvc-shift-scheduler
