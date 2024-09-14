@@ -8,4 +8,4 @@ RUN apt-get update && \
 COPY . .
 RUN chmod 777 -R /shift-scheduler
 
-CMD ["ttyd", "--writable", "-p", "8080", "bash", "shift_sched.sh"]
+CMD ["ttyd", "--writable", "-p", "8080", "bash"]
