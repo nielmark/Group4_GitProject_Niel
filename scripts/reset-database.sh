@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat ./database/EMPTY-database.json > ./database/database.json
+cat /data/EMPTY-database.json > /data/database.json
 
 echo -e "\n\n${BOLD}${GREEN}SUCCESS${NORMAL}"
 echo -e "\nWorking database has been reset!"

@@ -1,6 +1,6 @@
 #!/bin/bash
 #database=$(cat ./database/sample-database.json) #TESTING
-database=$(cat ./database/database.json)
+database=$(cat /data/database.json)
 teams=( "A1" "A2" "B1" "B2" "B3")
 shifts=( "MORNING" "MID" "NIGHT" )
 

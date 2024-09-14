@@ -9,7 +9,7 @@ NORMAL=$(tput sgr0)
 BOLD=$(tput bold) 
 
 # Read the database.json file into a variable
-database=$(cat ./database/database.json)
+database=$(cat /data/database.json)
 
 # Extract the relevant array for the specified team and shift using jq
 team_shift_array=$(echo "$database" | ./scripts/JSONPath.sh -b .[$SHIFT].[$TEAM])
