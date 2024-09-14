@@ -15,8 +15,20 @@ special_keywords=("PRINT","RESET")
 
 # Upser Input Starts here...
 echo -e "\n============================================================\n"
-read -p "Please add an employee: ${YELLOW}" name 
-echo "${NORMAL}"
+
+# Loop to ensure the user will input a name
+while true; do
+    read -p "Please add an employee: ${YELLOW}" name 
+    echo "${NORMAL}"
+    
+    if [ -n "$name" ]; then
+        break 
+    else
+        echo -e "${BOLD}${RED}Name cannot be empty! Please enter a valid name.${NORMAL}"
+    fi
+done
+
+
 fmt_name=$(echo "$name" | tr '[:lower:]' '[:upper:]')  # Format the name to Uppercase
 # Condition check if one of the input names is from the special keyword
 if printf "%s\n" "${special_keywords[@]}" | grep -w -q "$fmt_name"; then
