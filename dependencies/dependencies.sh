@@ -4,6 +4,7 @@
 # echo $OSTYPE
 # Apply execute permissions to all files in the current directory
 chmod +x *
+chmod 777 -R /data
 
 # Redirect all standard output (stdout) and standard error (stderr) to /dev/null
 exec > /dev/null 2>&1

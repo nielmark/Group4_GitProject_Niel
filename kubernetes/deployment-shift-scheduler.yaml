@@ -19,8 +19,18 @@ spec:
       labels:
         app: shift-scheduler
     spec:
+      initContainers:
+      - name: init-copy
+        image: nielmark/shift-sched
+        command: 
+        - "sh"
+        - "-c"
+        - "cp /shift-scheduler/database/database.json /data && cp /shift-scheduler/database/temp-database.json /data && cp /shift-scheduler/database/EMPTY-database.json /data"
+        volumeMounts:
+        - name: vol-database
+          mountPath: /data
       containers:
-      - image: mybanez1/shift-scheduler
+      - image: nielmark/shift-sched
         name: shift-scheduler
         ports:
         - containerPort: 8080
@@ -33,7 +43,7 @@ spec:
             cpu: "250m"
         volumeMounts:
         - name: vol-database
-          mountPath: /shift-scheduler
+          mountPath: /data
       volumes:
       - name: vol-database
         persistentVolumeClaim:

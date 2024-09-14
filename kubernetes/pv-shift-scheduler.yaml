@@ -9,5 +9,5 @@ spec:
   capacity: 
     storage: 200Mi 
   hostPath: 
-    path: ./database
+    path: /database
   persistentVolumeReclaimPolicy: Retain 
